@@ -65,7 +65,7 @@
 					</div>
 					
 					<div>
-						<button type="submit" class="btn btn-outline-danger">Save</button>
+						<button type="submit" class="btn btn-outline-danger"><i class="bi bi-save"></i> Save</button>
 					</div>
 				
 				</sf:form>	

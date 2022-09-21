@@ -54,7 +54,7 @@
 					<label for="form-label">Days</label>
 					<sf:input type="number" path="days" cssClass="form-control"
 						placeholder="Enter Days" />
-					<sf:errors path="days" cssClass="text-secondary"></sf:errors>	
+					<sf:errors path="days" cssClass="text-secondary"></sf:errors>
 				</div>
 			</div>
 			<div class="row">
@@ -62,12 +62,14 @@
 					<label for="form-label">Reason</label>
 					<sf:textarea type="date" path="reason" cssClass="form-control"
 						placeholder="Enter Reason" />
-					<sf:errors path="reason" cssClass="text-secondary"></sf:errors>	
+					<sf:errors path="reason" cssClass="text-secondary"></sf:errors>
 				</div>
 			</div>
 
 			<div>
-				<button class="btn btn-danger mt-2">Save</button>
+				<button type="submit" class="btn btn-outline-danger">
+					<i class="bi bi-save"></i> Save
+				</button>
 			</div>
 
 		</sf:form>
